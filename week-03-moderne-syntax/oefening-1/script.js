@@ -9,7 +9,7 @@
 //  Herschrijf naar een arrow function
 // ------------------------------------------------------------
 
-function calculateArea(breedte, hoogte) {
+const calculateArea = (breedte, hoogte) => {
   return breedte * hoogte;
 }
 
@@ -22,7 +22,7 @@ document.getElementById('result-area').textContent =
 //  Herschrijf naar een arrow function + template literal
 // ------------------------------------------------------------
 
-function makeSentence(naam, stad) {
+const makeSentence = (naam, stad) => {
   return 'Hallo, ik ben ' + naam + ' en ik woon in ' + stad;
 }
 
