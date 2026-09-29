@@ -34,4 +34,6 @@ form.addEventListener("submit", ()=>{
         teller.textContent = `${totaal} taken`
     })
 
+    input.value = "";
+
 })
