@@ -17,8 +17,13 @@ for(let p of people){
 people.map(pleople => pleople.city = "Den haag")
 //    De originele people-array moet onveranderd blijven.
 // 3. Toon deze nieuwe lijst in #kopie, ook met destructuring.
-for(let p of people){
+
+let user = "";
+  for (const { name, city } of people) {
+    user += "Mijn naam is" + name + " en ik woon in " + city + "<br>";
+  }
+
   const list = document.createElement("li")
-  list.textContent = `Mijn naam is ${p.name} en ik woon in ${p.city}`
+  list.innerHTML = user
   document.querySelector("#kopie").appendChild(list)
-}
+
