@@ -20,7 +20,7 @@ people.map(pleople => pleople.city = "Den haag")
 
 let user = "";
   for (const { name, city } of people) {
-    user += "Mijn naam is" + name + " en ik woon in " + city + "<br>";
+    user += "Mijn naam is " + name + " en ik woon in " + city + "<br>";
   }
 
   const list = document.createElement("li")
