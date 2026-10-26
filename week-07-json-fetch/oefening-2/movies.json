@@ -1,1 +1,6 @@
-[]
+[
+    {"title": "Man", "director": "Jhon", "year": 2000, "genre": "normal"},
+    {"title": "Weird Man", "director": "Weird Jhon", "year": 2001, "genre": "weird"},
+    {"title": "Romantic Man", "director": "Romantic Jhon", "year": 2002, "genre": "romance"},
+    {"title": "Scary Man", "director": "Scary Jhon", "year": 2003, "genre": "horror"}
+]
