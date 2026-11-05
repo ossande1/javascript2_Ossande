@@ -46,15 +46,11 @@ const getWeather = (city) => {
 form.addEventListener("submit", (event) =>{
   event.preventDefault()
   
-
-  // 1. Get the value from the #city-input element
   const cityInput = document.querySelector("#city-input");
   const city = cityInput.value;
 
-  // 2. Pass the city variable to the function
   getWeather(city);
 
-  // 3. Clear the input field
   cityInput.value = "";
 
 })
